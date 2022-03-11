@@ -10,7 +10,6 @@ import SwiftUI
 struct ListItemView: View {
     var ListData: HGame
     var body: some View {
-        GroupBox() {
             HStack{
                 Image(ListData.image)
                     .resizable()
@@ -33,7 +32,6 @@ struct ListItemView: View {
                     .foregroundColor(.primary)
                 Spacer()
             }
-        }
         .cornerRadius(25)
     }
 }

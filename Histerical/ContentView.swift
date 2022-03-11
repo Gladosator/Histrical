@@ -16,7 +16,7 @@ struct ContentView: View {
                     NavigationLink(
                         destination: LearnMoreView(DatI: Game),
                         label: {
-                            Text(Game.title)
+                            ListItemView(ListData: Game)
                         })
                     
                 }

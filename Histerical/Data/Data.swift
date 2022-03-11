@@ -9,15 +9,14 @@ import SwiftUI
 
 let Games: [HGame] = [
     HGame(
-        title: "Pong",
-        image: "Pong_Cabinet",
-        gradientColors: [Color("PongLight"), Color("PongDark")],
-        desciption: "Pong is a table tennis–themed arcade sports video game, featuring simple two-dimensional graphics, manufactured by Atari and originally released in 1972. It was one of the earliest arcade video games; it was created by Allan Alcorn as a training exercise assigned to him by Atari co-founder Nolan Bushnell, but Bushnell and Atari co-founder Ted Dabney were surprised by the quality of Alcorn's work and decided to manufacture the game. Bushnell based the game's concept on an electronic ping-pong game included in the Magnavox Odyssey, the first home video game console. In response, Magnavox later sued Atari for patent infringement.",
+        title: "Magnavox  Odyssey ",
+        image: "Magnavox_Oddyssey_thumbnail",
+        gradientColors: [Color("OddesseyLight"), Color("OddesseyDark")],
+        desciption: "The Magnavox Oddesey was a console made by Magnavox whitch is a subsidiary of Philips off all things. But what it did was revolutional what they would provide is the console a few cartiges and with those cartigeres you would get a see through piece of plastic with something drawn on in for example a football field or a map. ",
         date: "1972",
-        developer: "Atari",
+        developer: "Magnavox",
         developerLogo: "Atari_Logo",
-        developerInfo: "Atari (/əˈtɑːri/) is a brand name owned by several entities since its inception in 1972, currently by French publisher Atari SA, through a subsidiary named Atari Interactive. The original Atari, Inc., founded in Sunnyvale, California, in 1972 by Nolan Bushnell and Ted Dabney, was a pioneer in arcade games, home video game consoles, and home computers. The company's products, such as Pong and the Atari 2600, helped define the electronic entertainment industry from the 1970s to the mid-1980s.",
-        SourcePage: "https://en.wikipedia.org/wiki/Pong",
-        SourceName: "Wikipadia"),
+        developerInfo: "A company that is owned by philips and normaly doesnt make videogame consoles.",
+        SourcePage: "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+        SourceName: "Wiki"),
 ]
-
